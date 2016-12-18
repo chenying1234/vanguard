@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--header 头部-->
+		<div id="header">
+			<div class="headerbody">
+				<div class="headrleft">
+					<a href="index.html"><img src="images/4312385.png"/></a>
+				</div>
+				<div class="headerright">
+ 您好，欢迎您来到华润e万家！<span>|</span><a href="javascript:;">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<!--一条的div -->
+		<div id="panelHd">
+            <h1>用户登录</h1>
+            <a href="zhuce.html">新用户注册</a>
+        </div>
+		
+		<!--登录表单1-->
+		<!--<div id="logininfo">
+			<a href="javascript:;"></a>
+			<div class="userinfo">
+			<p>登录名: <input type="text" class="username"; placeholder="邮箱/用户名/已验证手机" value=""></p>
+			<p>密码 : <input type="password" class="userpassword"  placeholder="请输入您的密码"></p>
+			<p>验证码 : <input type="text" class="aptcha" placeholder="请填写验证码"> 
+				<img src="images/ValidateCode.png" height="30">
+				<a href="javascript:;" id="flushCode">看不清，换一张？</a>
+			</p>
+			<p>
+            <input type="checkbox" name="markPwd" value="false"> 自动登录
+            <a href="javascript:;">忘记密码</a>
+            </p>
+            <p><button>登录</button> </p>
+			</div>
+		</div>-->
+		
+		<!--登录表单2-->
+		<div id="panelBd" style="position: relative;">
+            <a href="javascript:;" target="_blank" ></a>
+            <div class="userinfo">
+                <form id="loginForm" action="javascript:;" method="post" >
+                    <input type="hidden" name="token">
+                    <p class="form-group"><label>登录名 :</label><input class="textInput username" id="loginKey" placeholder="邮箱/用户名/已验证手机" tabindex="1"><span id="sp10"></span></p>
+                    <p class="mt10 form-group"><label>密码 :</label><input type="password" class="textInput userpassword" id="dengpass" placeholder="请输入您的密码" tabindex="2"><span id="sp11"></span></p>
+                    <p class="mt10 aptchaWrap form-group"><label>验证码 : </label><input class="textInput aptcha" name="captcha" placeholder="请填写验证码" tabindex="3" maxlength="4">
+                        <img src="images/3614.jpg" class="captchaImg" height="30">
+                        <a href="javascript:;" id="flushCode">看不清，换一张？</a>
+                    </p>
+                    <p class="mt35 operatePw">
+                    	<input type="checkbox" checked="checked"/>
+                    	自动登录
+                        <a href="javascript:;" style="margin-bottom:10px;">忘记密码</a>
+                    </p>
+                    <p class="mt10"><button type="button" class="SignInBtn" id="denglv">登录</button></p>
+                    <input type="hidden" name="rurl" value="http://www.ewj.com/">
+                </form>
+            </div>
+        </div>
+        
+        <!--版权-->
+        <div class="web_map_My">
+	        <div class="footer_info" style="display: inline-block;">
+	        <a href="javascript:;" target="_blank">关于我们</a><span class="split">|</span>
+	        <a href="javascript:;"target="_blank">联系我们</a><span class="split">|</span>
+	        <a href="javascript:;" target="_blank">触屏版</a>
+	        </div>
+	        <span class="copyright">
+	        Copyright@华润万家有限公司&nbsp;&nbsp;粤ICP备05036369号-4&nbsp;&nbsp;&nbsp;ewj.com&nbsp;版权所有
+	        </span>
+    	</div>
+        
+	</body>
+</html>

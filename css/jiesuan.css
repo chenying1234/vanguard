@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+a{ text-decoration:none; color:#000;}
+fieldset, img { border:0;}
+img{display: block;}
+ul,li{ list-style:none;}
+body{ font-size:12px; font-family:"微软雅黑"; background: #EDEDED;}
+
+/*顶部*/
+.header {  background: url(../images/50393.png) repeat-x;   height: 124px;   box-shadow: 0 0 10px rgba(9, 2, 4, .12);  position: relative;   z-index: 100;}
+.header .center { position: relative;  height: 124px;  z-index: 1000;width: 1190px; margin: 0 auto;}
+.siteNav { display: inline-block;  width: 100%;  padding-top: 8px;   position: relative;   z-index: 3;}
+.siteNavCityChoose { color: #666;  float: left;  font-size: 14px;  margin: -11px -10px -10px -10px;  padding: 10px;   transition: all 0.5s ease;  position: relative;}
+.siteNavLogin { float: left;  font-size: 12px;   color: #666;   margin-left: 25px;  overflow: hidden;}
+.siteNavEntry { float: right;  font-size: 12px;  overflow: hidden;  margin-right: -12px;}
+.siteNavCityChoose .title { float: left;  white-space: nowrap;  padding-right: 15px;  background: url(../images/50420.png) no-repeat right center;}
+.siteNavLogin a { color: #666;  padding-right: 20px;  margin: 0 -1px 0 20px;   display: inline-block;   border-right: 1px solid #666;   cursor: pointer;}
+.colore14041 { color: #e14041;}
+.siteNavEntry a {  border-left: 1px solid #666;  color: #666;   display: inline-block;   line-height: 13px;   margin: 2px 20px 0 -1px;  padding-left: 20px;   cursor: pointer;}
+
+.headerBody { display: inline-block;  left: 0; padding-top: 3px;  width: 100%;  height: 99px;  position: relative;}
+.headerLogo {  width: 341px;  height: 71px;   float: left;}
+.headerShoppingStep {position: relative; float: right;   margin-top: 28px;}
+.headerShoppingStep > li {float: left;  white-space: nowrap;   position: relative;}
+.headerShoppingStep > li.active .line { background-color: #79b235;}
+.headerShoppingStep > li > .line {  position: absolute;   top: 0;  left: 0;  width: 100%;   height: 4px;   background-color: #d1d1d1;}
+.headerShoppingStep > li.active .radius {  background-position: 0 0;}
+.headerShoppingStep > li > .radius {  position: absolute ;   width: 28px; height: 28px;   top: -14px;   left: 50%;   margin-left: -14px;    background: url(../images/50461.png) no-repeat 0 -28px;  color: #fff;   font-size: 15px;  text-align: center;   line-height: 28px;}
+.headerShoppingStep > li.active .title {  color: #79b235;   font-weight: bold;}
+.headerShoppingStep > li > .title {  margin-top: 20px;   font-size: 14px;  color: #333;   min-width: 175px;   float: left;   text-align: center;}
+
+.best {  margin: 15px auto;   width: 1190px;  background: #fff;  overflow: hidden; }
+.best > .title {  width: 100%;   height: 50px;  line-height: 50px;   color: #222;   font-size: 16px;  float: left;   text-indent: 20px;   background-color: #fff;  cursor: pointer;   transition: all 0.3s ease;  background: url(../images/50412.png) repeat-x 0 bottom;}
+.best > .panl_order {  width: 100%;   float: left;   margin-bottom: 10px;  padding-bottom: 30px;  border-bottom: 1px solid #f1f1f1;}
+.panl_order > .title {  width: 100%;  float: left;   line-height: 30px;  margin: 10px 0 0;}
+.panl_order > .title > .tt { font-size: 16px;  color: #333;   margin: 0 15px 0 45px;}
+.panl_order > .title > .but{font-size: 12px;  color: #1e589c;   text-decoration: underline;   cursor: pointer;}
+.show_od { float: left;  width: 100%;}
+.show_od .l_mag{float: left;  font-size: 14px;  color: #222;  width: 1120px;   margin: 5px 0 5px 70px; display: block;}
+
+.ruleLink { margin-left: 50px;  text-decoration: underline;}
+.text_note {  color: red;   font-size: 12px;}
+.but2 { margin-right: 40px;font-size: 12px;  color: #1e589c;   text-decoration: underline;   cursor: pointer;}
+
+.datles_table {  width: 100%;  float: left;   margin: -10px 0 15px;}
+.datles_table > .th {  background-color: #fff9f9;width: 100%; float: left;border-bottom: 1px solid #ededed;  line-height: 45px;   text-indent: 15px;}
+.ld1 { text-indent: 0;width: 130px;  margin-left: 25px;float: left;  color: #333;   font-size: 14px;}
+.ld2 {  width: 259px;   padding: 0 0 0 16px;float: left; color: #333;  font-size: 14px;}
+.ld3 { width: 195px;   text-align: center;    margin-left: 10px;float: left;  color: #333;    font-size: 14px;}
+.ld4 {  width: 123px;   text-align: center;float: left;  color: #333;   font-size: 14px;}
+.ld6 {  width: 148px;   margin-left: 17px;   text-align: center;float: left;   color: #333;    font-size: 14px;}
+.ld7 {   width: 170px;   text-align: center;float: left;   color: #333;    font-size: 14px;}
+
+.merchantHeader { background-color: #ffffff;   border-bottom: 1px solid #333333;   font-weight: normal;     font-size: 14px;  line-height: 45px; padding-left: 25px;}
+.merchantHeader .merchantName {  font-size: 14px;   color: #333333;display: inline-block;   width: 680px;    font-weight: normal;}
+.merchantHeader .payPrice{    width: 138px;     display: inline-block;margin-left: 230px;font-weight: normal;  text-align: center;}
+
+.datles_table > .ll {width: 100%;   float: left;   overflow: hidden;   background-color: #fff; position: relative;}
+.datles_table > .ll > li {float: left;     padding: 10px 0;  line-height: 90px; width: 100%;  margin-bottom: 0; border-bottom: 1px solid #e4e4e4;width: 100%;}
+.ll > li > .ld2 > a { cursor: pointer;   display: inline-block;    vertical-align: middle;    line-height: 19px;   width: 240px;    word-break: break-all;}
+.ll > li > .ld6 .quantity_txt {  float: left;    height: 28px;    line-height: 28px;    margin: 25px 55px;    text-align: center;    width: 50px;}
+
+.qut, .qut2 { width: 1110px;   color: #555;   float: left;   margin: 0 40px;    padding: 10px 0 20px;   border-bottom: 1px dashed #d9d9d9;font-size: 14px;   text-align: right;   line-height: 25px;    white-space: nowrap;}
+.qut > .t1, .qut > .t2, .qut2 > .t2 {   font-size: 18px;  float: right;  clear: both;}
+.qut > .t1 {   margin-bottom: 10px;}
+.qut > .t2{   font-size: 14px; text-indent: 2em;}
+.qut2 {   border: none;}
+.qut2 > .t1 {  float: right;   clear: both;    font-size: 20px;}
+.colore14041 {   color: #e14041;}
+
+.pay {  float: right;   font-size: 24px;   line-height: 40px;   margin: 0 40px 10px 0;   padding: 0 50px;}
+.bute14041 {  background-color: #e14041;  border-bottom: 1px solid #a42f30;    color: #fff; font-weight: 200;  cursor: pointer;  text-align: center;  transition: all 0.5s ease 0s;   display: inline-block;}
+.serviceAgreement{ display: block;  float: right; clear: both;   margin: 0 30px 10px 0;   font-size: 13px;}
+.serviceAgreement a:-webkit-any-link { color: -webkit-link;}
+
+.web_map_My { width: 100%;   display: inline-block;   text-align: center;   font-size: 16px;    padding: 15px 0 50px; margin-bottom: 50px;}
+.web_map_My span.copyright {  color: #848484;  font-size: 16px;  margin: 0 0 0 60px;}
+
+
+
+
+
+
+
+

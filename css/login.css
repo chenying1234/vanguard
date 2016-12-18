@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+a{ text-decoration:none; color:#000;}
+fieldset, img { border:0;}
+img{display: block;}
+ul,li{ list-style:none;}
+body{ font-size:12px; font-family:"微软雅黑"; background: #EDEDED;}
+/*header 头部*/
+#header{ position:relative;width: 100%; height:124px; background:url(../images/login50394.png);box-shadow: 0 0 10px rgba(9, 2, 4, .12);}
+#header .headerbody{ width: 1190px; height: 99px; padding-top: 3px; margin: 0 auto;}
+#header .headrleft{width: 341px; height: 71px; margin-top: 22px; float: left;}
+#header .headerright{float: right; width: 242px; height: 42px; margin: 57px 100px 0 0; color: #666;}
+#header .headerright span{padding: 0 12px;}
+#header .headerright a{color: #666;}
+#header .headerright a:hover{color: #e04040;}
+/*一条的div*/
+#panelHd{width: 1130px; height:45px; padding: 0 30px; margin: 40px auto 0 auto;  background: #FFFFFF;}
+#panelHd h1{ display: inline-block; font-size: 16px; color: #333; font-weight: normal; line-height: 45px;}
+#panelHd a{display: inline-block; float: right; font-size: 16px; line-height: 45px; color: #e04040;text-decoration: underline;}
+/*登录表单1*/
+/*#logininfo{position: relative; width: 1100px; height: 300px;background: #fff;  padding: 35px 45px 45px 45px; margin: 4px auto; }
+#logininfo>a{ display: block; width: 370px; height: 320px; background:url(../images/14961124.jpg) no-repeat;position: absolute; left: 100px; top: 30px;}
+#logininfo .userinfo{ width: 630px; height: 300px; float: right;background: skyblue;}*/
+
+/*登录表单2*/
+#panelBd{width: 1100px; height: 300px; padding: 35px 45px 45px 45px;background: #fff; margin: 5px auto;}
+#panelBd>a{position: absolute; width: 370px; height: 320px; left: 100px; top: 30px; display: block; background:url(../images/14961124.jpg) no-repeat;}
+#panelBd .userinfo{ width: 545px; height: 280px;padding: 0 0 10px 355px; margin: 10px 0 0 200px;font-size: 14px;}
+#panelBd .userinfo #loginForm{ width: 545px; height: 280px; font-size: 14px;}
+#panelBd #loginForm p{width: 545px; height: 52px;display: block;}
+#panelBd #loginForm .mt10 {margin-top: 10px;}
+#panelBd #loginForm .mt35 {margin-top: 35px;}
+#panelBd #loginForm .operatePw { width: 405px; font-size: 12px;}
+#panelBd #loginForm label{display: inline-block; height: 19px; width: 145px; margin-right: 10px; text-align: right;margin-left: -155px;}
+#panelBd #loginForm .textInput {display: inline-block; min-height: 20px; line-height: 20px; padding: 15px 15px;  font-size: 14px; color: #aaa; background: #fff;  border: 1px solid #dadada; outline-color:#e04040;}
+#panelBd #loginForm .username,.userpassword{ width: 373px;}
+#panelBd #loginForm .captchaImg { display: inline-block; vertical-align: middle;  position: relative; top: -1px; margin-left: 6px;}
+#panelBd #loginForm .aptchaWrap a { color: #333; font-size: 12px;}
+#panelBd #loginForm .aptchaWrap a:hover{text-decoration: underline;}
+#panelBd #loginForm .operatePw{height: 16px;}
+#panelBd #loginForm .operatePw a {  float: right;  color: #1f589d;text-decoration: underline; margin-bottom: 10px;}
+#panelBd #loginForm .operatePw a:hover{color:#e04040 ;}
+#panelBd #loginForm .operatePw span{line-height: 16px;}
+#panelBd #loginForm .SignInBtn{ width: 405px; height: 49px;border: 0; cursor: pointer; font-weight: bold; outline: none; line-height: 51px; text-align: center; color: #fff; font-size: 24px; background: #e04040; display: inline-block;}
+
+/*最后版权部分le*/
+.web_map_My { width: 100%;  display: inline-block;  text-align: center; font-size: 16px;  margin-top: 66px; margin-bottom: 100px;}
+.web_map_My a { color: #333; cursor: pointer;   padding: 0 8px;}
+.web_map_My a:hover{text-decoration: underline; color: #e04040;}
+
+/*用户注册页面bigbox*/
+#bigbox{width: 1100px; height: 400px; padding: 35px 45px 45px 45px;background:deepskyblue; margin: 5px auto; }
+
+

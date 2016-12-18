@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+a{ text-decoration:none; color:#000;}
+fieldset, img { border:0;}
+img{display: block;}
+ul,li{ list-style:none;}
+body{ font-size:12px; font-family:"微软雅黑"; background: #EDEDED;}
+
+/*鲜货到  秒杀  第一层*/
+#firstfloor{ height:530px;margin:0 auto;width: 1190px; background: #FFE8C6; margin-top:25px ;}
+#firstfloor .fLeft{ width: 866px; height: 530px; float:left; padding-left: 10px;}
+#firstfloor .fLeft .fLefttop{ height: 62px;}
+#firstfloor .fLeft .fLeftbom{height: 468px; width: 866px;}
+#firstfloor .fLeft .fLefttop span{color: #e33a3c; line-height: 62px; font-size: 14px;}
+#firstfloor .fLeft .fLefttop .t1{font-weight: bold; font-size: 24px; margin-right: 10px;}
+#firstfloor .fLeft .fLeft1:hover{border-color: red;}
+#firstfloor .fLeft .fLeft2:hover{border-color: red;}
+#firstfloor .fLeft .fLeft3:hover{border-color: red;}
+#firstfloor .fLeft .fLeft1,.fLeft2,.fLeft3{float: left; padding: 10px; width: 260px; height: 440px; background: #fff; border:2px solid #FFE8C6;}
+#firstfloor .fLeft .import{width:60px; text-align: center; float: left; height: 34px; margin-right: 10px;background: #E33A3C; color: #fff; font-size: 20px; line-height: 34px;}
+#firstfloor .fLeft .name{color: #333; font-size: 14px; line-height: 20px;margin: 5px 0 8px;}
+#firstfloor .fLeft .price{width: 77px; height: 34px; font-size: 20px; color: #e04040;}
+#firstfloor .fLeft strong{ font-weight: bold;font-size: 26px;}
+#firstfloor .fLeft .qianggou{ display:block; width: 140px; height: 40px;border-radius: 25px; background: #E14041; color: #fff; font-size: 22px; cursor: pointer; text-align: center;line-height: 40px; position: relative; left:120px; top: 15px;}
+#firstfloor .fRight{position: relative; width:304px ; height: 520px; border: 5px solid #fff; background: #fff; float: right;}
+#firstfloor .fRight .rtitle{width: 200px; height: 55px; background: url(../images/3020016.png) no-repeat; position: absolute; top: 8px; left: -16px; font-size: 24px; font-weight: bold; color: #fff; padding: 5px 0 0 30px ; }
+#firstfloor .fRight .picDiv{ position: relative; text-align: center;top:95px;}
+#firstfloor .fRight .name{color: #333; font-size: 14px; text-align: center; line-height: 20px;margin: 5px 0 8px;}
+#firstfloor .fRight .mt5{font-size: 14px; text-align: center; margin: 6px 0 10px 0;}
+#firstfloor .fRight .tg{color: #e14041; font-size: 24px;text-align: center;}
+#firstfloor .fRight .buy{ width: 240px; height: 40px; margin-top: 22px;  line-height:40px;background: #e14041; color: #fff; display: inline-block; font-size: 22px; border-radius: 25px;}
+
+/*下面三个一样的楼层 floor top*/
+.floor{ height: 872px;margin:0 auto;width: 1190px;}
+.floor .titleimg{float: left; width:230px ; height: 80px;}
+.floor .floorTab{float: left; width: 960px; height: 80px;}
+.floor .floorTab .cur{ border-bottom: 4px solid #6abd00;}
+.floor .border2 .cur{ border-bottom: 4px solid #ff55bd;}
+.floor .border3 .cur{ border-bottom: 4px solid #b4653b;}
+.floor .floorTab a{display:block;width: 192px; height: 76px; border-bottom: 4px solid #F5F5F5; background: #F5F5F5; line-height: 80px; text-align: center; font-size: 22px; float: left;}
+.floor .floor_side{ width: 230px; height: 702px; float: left; background: #fff;}
+.floor .floor_side ul{ width: 230px; margin-top: 4px;}
+.floor .floor_side ul li{ width: 80px; height: 30px; margin: 11px 15px 0 20px; float: left; }
+.floor .floor_side ul li a{width: 78px;height: 28px;display: inline-block;border-radius: 15px;text-align: center;  font-size: 14px; line-height: 28px; color: #6abd00; border: 1px solid #6abd00 ;}
+.floor .floor_side ul li a:hover{background: #6abd00 ; color: #fff;}
+.floor .floor_side .zhise li a{color: #ff55bd; border: 1px solid #ff55bd;}
+.floor .floor_side .zhise li a:hover{background: #ff55bd ; color: #fff;}
+.floor .floor_side .tuse li a{color: #b4653b; border: 1px solid #b4653b;}
+.floor .floor_side .tuse li a:hover{background: #b4653b ; color: #fff;}
+
+
+/*商品各类的东西*/
+.floor .goodslist{width: 960px; height: 702px; float: left; background: #fff; overflow: hidden;}
+.floor .goodslist ul{ width: 960px; height: 700px;position: absolute; background: #fff; display: none;}
+.floor .goodslist ul li{ width: 226px; height: 336px; margin: 0 0 11px 10px; float: left; border: 2px solid #fff}
+.floor .goodslist ul li:hover{border-color:#f3484a;}
+.floor .goodslist ul li .imga{display:block; width: 226px; height:230 ; overflow: hidden; border-bottom: 1px solid #eee;}
+.floor .goodslist ul li .name { color: #333;  width: 210px;  cursor: pointer;  display: block; font-size: 14px; line-height: 20px;eight: 20px;   overflow: hidden; text-overflow: ellipsis;  white-space: nowrap;}
+.floor .goodslist ul li .sellPoint { color: #999; width: 210px;   display: block;  font-size: 14px;  line-height: 20px;  height: 20px;   overflow: hidden;  font-weight: normal;   text-overflow: ellipsis;   white-space: nowrap;}
+.floor .goodslist ul li .price { display: block;  margin-top: 10px;   color: rgb(224, 64, 64);font-size: 22px; width: 210px; height: 34px;}
+.floor .goodslist ul li .price strong {font-size: 30px; font-weight: normal;}
+
+.floor .floorBrand{float: left; width: 1190px; height: 80px; margin-top: 10px;background: #fff; clear: both;}
+.floor .floorBrand ul{ width: 1190px; height: 80px;}
+.floor .floorBrand ul li{ float: left; width: 160px; height: 80px; background: #fff; padding: 0 18px 0 19px;border-left:1px solid #dcdcdc;}
+
+
+
+/*大家都在买  推荐部分*/
+#youlike{ width: 1190px; height: 310px;padding-bottom: 10px;background: #fff; margin-top: 20px; margin-left: auto; margin-right: auto;}
+#youlike .title{ width: 1170px; height: 26px; padding: 10px 0 10px 20px; color:#666 ; font-size: 20px; font-weight: bold;}
+#youlike ul{width: 1144px; height: 260px; margin: 0 20px 022px; border: 2px solid #ededed;overflow: hidden;}
+#youlike ul li{width: 160px; height: 260px; padding: 0 2px 0 1px; border-left: 2px solid #ededed; margin-left: -2px; float: left;}
+#youlike ul li .name{color: #333; display: block; font-size: 14px; line-height: 20px; height: 40px; margin-top: 3px; overflow: hidden;}
+#youlike ul li .price{ width: 140px; height: 23px;margin-top: 15px; font-size: 20px; display: block; color: #e04040;}
+
+
+
+
+
+
+

@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产地直采(专题)</title>
+		<link rel="shortcut icon" href="images/ico.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zhuanti.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zhuanti.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		
+		<!--顶部通知图片-->
+		<div class="headerImg">
+    		<a href="javascript:;" target="_blank"><img src="images/14971408.jpg" style="width: 100%;" class="messageByimg"></a>
+		</div>
+		<!--logo 搜索框  nav-->
+		<div class="header">
+			<div class="center">
+				<div class="siteNav">
+					<div class="siteNavLogin">
+						<span >您好</span>,
+						<span >欢迎来<font class="colore14041">e万家</font>！</span>
+						<span id="loginLinkBlock"><a href="login.html">登录</a> <a href="zhuce.html">注册</a></span>
+					</div>						
+					<div class="siteNavRight">
+						<a href="javascript:;" class="right1">在线客服</a>
+						<a href="javascript:;" class="right2"><img src="images/3340014.png" />vip提货券</a>
+						<a href="javascript:;" class="right3">消费者告知书</a>
+						<a href="dingdan.html" class="right4">我的订单</a>
+					</div>	
+				</div>
+				
+				<div class="headerBody">
+					<a class="logo" href="index.html"><img src="images/4312385.png"/></a>
+					<div id="inputbox">
+						<input type="text"  id="txt" value="" />
+						<input type="button" id="btn" />
+					</div>
+					<div id="shopcar">
+						<img src="images/3020025.png"/>
+						<a href="shopingcar.html"><span>购物车&nbsp;<strong id="carNumber">0</strong>&nbsp;件商品</span></a>
+					</div>
+					<div id="hotkey">
+						<span id="">热门：</span>
+						<a href="javascript:;">跨境婴幼奶粉</a>
+						<a href="javascript:;">FANCL芳珂</a>
+						<a href="javascript:;">中秋月饼 </a>
+						<a href="javascript:;">大闸蟹</a>
+						<a href="javascript:;">餐饮生鲜 </a>
+						<a href="javascript:;">进口薯片</a>
+					</div>
+				</div>
+			</div>
+			<!--nav 导航条-->
+			<div class="headerNav">
+				<ul class="list">
+					<li id="li1" class="active"><a href="javascript:;">Enjoy City</a></li>
+					<li id="li2"><a href="javascript:;">跨境购</a><img src="images/3020009.png"/></li>
+					<li id="li3"><a href="javascript:;">产地直采</a><img src="images/3020009.png"/></li>
+					<li id="li4"><a href="javascript:;">政企阳光采购频道</a><img src="images/3020009.png"/></li>
+				</ul>
+				<div id="title">
+					<img src="images/3020023.png" />
+					商品分类
+				</div>
+				<!--商品分类ul-->
+				<ul class="goodslist" style="display: none;">
+					<li>
+						<img src="images/12410960_100X100.png"/>
+						<a href="javascript:;">产地直采</a>
+						<div></div>
+					</li>
+					<li>
+						<img src="images/12410969_100X100.png"/>
+						<a href="javascript:;">时令果蔬</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">新鲜水果</a>
+								<a href="javascript:;">应季畅销</a>
+								<a href="javascript:;">进口水果</a>
+								<a href="javascript:;">国产水果</a>
+								<a href="javascript:;">水果礼盒礼篮</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410967_100X100.png"/>
+						<a href="javascript:;">肉禽蛋品</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">肉类制品</a>
+								<a href="javascript:;">熟食肉禽</a>
+								<a href="javascript:;">腊肠/腊肉</a>
+								<a href="javascript:;">肉丸</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">猪牛羊肉</a>
+								<a href="javascript:;">鲜/冻牛羊肉</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">禽蛋类</a>
+								<a href="javascript:;"> 蛋品</a>
+								<a href="javascript:;">禽类</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410970_100X100.png"/>
+						<a href="javascript:;">水产海鲜</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">虾蟹类</a>
+								<a href="javascript:;">虾</a>
+								<a href="javascript:;">蟹</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">参贝类</a>
+								<a href="javascript:;">贝类</a>
+								<a href="javascript:;">海参</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">鱼类</a>
+								<a href="javascript:;"> 进口鱼类</a>
+								<a href="javascript:;">国产鱼类</a>
+								<a href="javascript:;">三文鱼</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">其他水产</a>
+								<a href="javascript:;">其他水产</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410968_100X100.png"/>
+						<a href="javascript:;">乳品面点</a>						  
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">面包糕点</a>
+								<a href="javascript:;">生日蛋糕</a>
+								<a href="javascript:;">烘焙点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">米面食品 </a>
+								<a href="javascript:;">小吃点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">甜品小菜</a>
+								<a href="javascript:;">风味小菜</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410964_100X100.png"/>
+						<a href="javascript:;">粮油干货</a>
+						<div>
+						<ul>
+							<li>
+								<a class="lei" href="javascript:;">粮油米面</a>
+								<a href="javascript:;">油</a>
+								<a href="javascript:;">米</a>
+								<a href="javascript:;">面条粉丝</a>
+								<a href="javascript:;">五谷杂粮</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">南北干货</a>
+								<a href="javascript:;">菌菇类</a>
+								<a href="javascript:;">干海产</a>
+								<a href="javascript:;">煲汤料</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">厨房调料</a>
+								<a href="javascript:;">酱油</a>
+								<a href="javascript:;">醋</a>
+								<a href="javascript:;">调味汁</a>
+								<a href="javascript:;">调味料</a>
+								<a href="javascript:;">调味酱</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">方便食品</a>
+								<a href="javascript:;">方便面/粉/粥</a>
+								<a href="javascript:;">火腿肠</a>
+								<a href="javascript:;">罐头食品</a>
+							</li>
+							</ul>	
+						</div>
+					</li>
+					<li>
+						<img src="images/12410965_100X100.png"/>
+						<a href="javascript:;">零食酒饮</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">新鲜水果</a>
+								<a href="javascript:;">应季畅销</a>
+								<a href="javascript:;">进口水果</a>
+								<a href="javascript:;">国产水果</a>
+								<a href="javascript:;">水果礼盒礼篮</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410966_100X100.png"/>
+						<a href="javascript:;">母婴呵护</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">肉类制品</a>
+								<a href="javascript:;">熟食肉禽</a>
+								<a href="javascript:;">腊肠/腊肉</a>
+								<a href="javascript:;">肉丸</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">猪牛羊肉</a>
+								<a href="javascript:;">鲜/冻牛羊肉</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">禽蛋类</a>
+								<a href="javascript:;"> 蛋品</a>
+								<a href="javascript:;">禽类</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410962_100X100.png"/>
+						<a href="javascript:;">个护美妆</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">虾蟹类</a>
+								<a href="javascript:;">虾</a>
+								<a href="javascript:;">蟹</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">参贝类</a>
+								<a href="javascript:;">贝类</a>
+								<a href="javascript:;">海参</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">鱼类</a>
+								<a href="javascript:;"> 进口鱼类</a>
+								<a href="javascript:;">国产鱼类</a>
+								<a href="javascript:;">三文鱼</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">其他水产</a>
+								<a href="javascript:;">其他水产</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410963_100X100.png"/>
+						<a href="javascript:;">家居日用</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">面包糕点</a>
+								<a href="javascript:;">生日蛋糕</a>
+								<a href="javascript:;">烘焙点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">米面食品 </a>
+								<a href="javascript:;">小吃点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">甜品小菜</a>
+								<a href="javascript:;">风味小菜</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410961_100X100.png"/>
+						<a href="javascript:;">厨具电器</a>
+						<div>
+						<ul>
+							<li>
+								<a class="lei" href="javascript:;">粮油米面</a>
+								<a href="javascript:;">油</a>
+								<a href="javascript:;">米</a>
+								<a href="javascript:;">面条粉丝</a>
+								<a href="javascript:;">五谷杂粮</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">南北干货</a>
+								<a href="javascript:;">菌菇类</a>
+								<a href="javascript:;">干海产</a>
+								<a href="javascript:;">煲汤料</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">厨房调料</a>
+								<a href="javascript:;">酱油</a>
+								<a href="javascript:;">醋</a>
+								<a href="javascript:;">调味汁</a>
+								<a href="javascript:;">调味料</a>
+								<a href="javascript:;">调味酱</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">方便食品</a>
+								<a href="javascript:;">方便面/粉/粥</a>
+								<a href="javascript:;">火腿肠</a>
+								<a href="javascript:;">罐头食品</a>
+							</li>
+							</ul>	
+						</div>
+					</li>
+					<li>
+						<img src="images/12410959_100X100.png"/>
+						<a href="javascript:;">地方特产</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">新鲜水果</a>
+								<a href="javascript:;">应季畅销</a>
+								<a href="javascript:;">进口水果</a>
+								<a href="javascript:;">国产水果</a>
+								<a href="javascript:;">水果礼盒礼篮</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!--广告图片banner-->
+		<div id="banner">
+			<a href="javascript:;"></a>
+		</div>
+		
+		
+		<!--下面的展销商品-->
+		<div id="center">
+			<ul class="promotion-list">
+				<li>
+					<div class="flag">买手推荐</div>
+					<div class="pic" style="background-image:url(images/14970736.jpg);">
+                        <div class="picDiv">
+                            <a href="JavaScrip:;"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info">
+		                <div class="info-row name">
+		                    <h3><a href="javascript:;" >【全国配】陕西大荔甜蜜冬枣1500g</a></h3>
+		                    <p>皮薄肉脆 口感鲜美 风味甘甜无农药，无膨大剂，不催熟.</p>
+		                </div>
+		                <div class="info-row price">
+		                    <span><strong>¥<b>59</b>.80</strong></span>
+		                    <span style="color:#ccc; font-size: 18px; text-decoration: line-through; font-weight:normal ;margin: 0 0 0 10px;">参考价￥79.80</span>
+		                </div>
+		                <div class="info-row buy">
+		                    <span></span>
+		                    <a class="buy-button" href="javascript:;">立刻购买</a>
+		                </div>
+                    </div>
+				</li>
+				
+				<li>
+					<div class="flag">买手推荐</div>
+					<div class="pic" style="background-image:url(images/14194259.jpg);">
+                        <div class="picDiv">
+                            <a href="JavaScrip:;"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info">
+		                <div class="info-row name">
+		                    <h3><a href="javascript:;" >【全国配送】澳洲甜橙12枚（单果约250g）</a></h3>
+		                    <p>果肉饱满，鲜甜多汁。</p>
+		                </div>
+		                <div class="info-row price">
+		                    <span><strong>¥<b>119</b>.80</strong></span>
+		                    <span style="color:#ccc; font-size: 18px; text-decoration: line-through; font-weight:normal ;margin: 0 0 0 10px;">参考价￥139.80</span>
+		                </div>
+		                <div class="info-row buy">
+		                    <span></span>
+		                    <a class="buy-button" href="javascript:;">立刻购买</a>
+		                </div>
+                    </div>
+				</li>
+				
+				<li>
+					<div class="flag">买手推荐</div>
+					<div class="pic" style="background-image:url(images/12000132.jpg);">
+                        <div class="picDiv">
+                            <a href="JavaScrip:;"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info">
+		                <div class="info-row name">
+		                    <h3><a href="javascript:;" >【全国配送】吐鲁番绿玛瑙葡萄干一级250g</a></h3>
+		                    <p>融聚一季的阳光精华，浓郁的葡萄芳香，香醇怡人的喜爱，浸醉于西域的地道味道。</p>
+		                </div>
+		                <div class="info-row price">
+		                    <span><strong>¥<b>33</b>.80</strong></span>
+		                    <span style="color:#ccc; font-size: 18px; text-decoration: line-through; font-weight:normal ;margin: 0 0 0 10px;">参考价￥33.80</span>
+		                </div>
+		                <div class="info-row buy">
+		                    <span></span>
+		                    <a class="buy-button" href="javascript:;">立刻购买</a>
+		                </div>
+                    </div>
+				</li>
+				
+				<li>
+					<div class="flag">买手推荐</div>
+					<div class="pic" style="background-image:url(images/13860517.jpg);">
+                        <div class="picDiv">
+                            <a href="JavaScrip:;"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info">
+		                <div class="info-row name">
+		                    <h3><a href="javascript:;" >【全国配送】买十送一 阳澄湖大闸蟹788型蟹券8只装（公蟹3.3-3.8两/4只，母蟹2.2-2.7两/4只）</a></h3>
+		                    <p>大闸蟹劵预计在9月15~25日起可兑换实物大闸蟹。原产地发货，全国配送（除西藏）</p>
+		                </div>
+		                <div class="info-row price">
+		                    <span><strong>¥<b>198</b>.00</strong></span>
+		                    <span style="color:#ccc; font-size: 18px; text-decoration: line-through; font-weight:normal ;margin: 0 0 0 10px;">参考价￥218.00</span>
+		                </div>
+		                <div class="info-row buy">
+		                    <span></span>
+		                    <a class="buy-button" href="javascript:;">立刻购买</a>
+		                </div>
+                    </div>
+				</li>
+				
+				<li>
+					<div class="flag">买手推荐</div>
+					<div class="pic" style="background-image:url(images/13540099.jpg);">
+                        <div class="picDiv">
+                            <a href="JavaScrip:;"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info">
+		                <div class="info-row name">
+		                    <h3><a href="javascript:;" >【全国配送】Ocean gala 格陵兰比目鱼切身（袋装）400g   北上广深江苏浙江包邮</a></h3>
+		                    <p>厚实而纯净雪白的肉质，略甜而细腻的口味，是名贵佳肴的选择。</p>
+		                </div>
+		                <div class="info-row price">
+		                    <span><strong>¥<b>83</b>.00</strong></span>
+		                    <span style="color:#ccc; font-size: 18px; text-decoration: line-through; font-weight:normal ;margin: 0 0 0 10px;">参考价￥89.00</span>
+		                </div>
+		                <div class="info-row buy">
+		                    <span></span>
+		                    <a class="buy-button" href="javascript:;">立刻购买</a>
+		                </div>
+                    </div>
+				</li>
+				
+				<li>
+					<div class="flag">买手推荐</div>
+					<div class="pic" style="background-image:url(images/14194260.jpg);">
+                        <div class="picDiv">
+                            <a href="JavaScrip:;"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info">
+		                <div class="info-row name">
+		                    <h3><a href="javascript:;" >【全国配送】渔鲜世海 阿根廷红虾2kg/盒 特大号L1级 南美进口大虾 阿根廷进口海鲜</a></h3>
+		                    <p>肉质鲜嫩，营养丰富，色味俱全，让人回味。【渔鲜世海】品牌买满99元全国包邮，黑龙江、吉林、辽宁、西藏、新疆、内蒙古、甘肃、青海、宁夏由于地区偏远，气候原因，暂不配送。未满99元邮费见商品详情页下方。</p>
+		                </div>
+		                <div class="info-row price">
+		                    <span><strong>¥<b>199</b>.00</strong></span>
+		                    <span style="color:#ccc; font-size: 18px; text-decoration: line-through; font-weight:normal ;margin: 0 0 0 10px;"></span>
+		                </div>
+		                <div class="info-row buy">
+		                    <span></span>
+		                    <a class="buy-button" href="javascript:;">立刻购买</a>
+		                </div>
+                    </div>
+				</li>
+			</ul>
+			
+			
+			<!--下面一个ul，几十个小图片那个-->
+			<ul class="goodsUl">
+				<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/14961214_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/6540819_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/9322667_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/13340390_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/5430152_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/3450006_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/2170009_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/4531393_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12400297_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12400281_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/9400367_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/9323135_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12010292_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12700126_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/13560305_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12010180_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12290557_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12700099_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12290446_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	 
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/13740087_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12952108_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12400479_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12400474_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12290364_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12950891_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/13741319_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/12950038_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+            	
+            	
+            	<li>
+	                <a class="img_view" href="javascript:;">
+	                    <div class="picDiv">
+	                    <img src="images/11634983_290X290.jpg">
+	                    </div>
+	                </a>
+	                <div class="bottom">
+	                    <a class="name" href="javascript:;">【广东配送】新疆琼博拉西梅1700g</a>
+	                    <p class="desc">树上鲜摘、航空直达</p>
+	                    <p class="textPrimary price">
+	                        ¥<strong>118</strong>.00
+	                        <a href="javascript:;" class="buy">购买</a>
+	                    </p>
+	                </div>
+            	</li>
+			</ul>
+			
+		
+		</div>
+		
+
+
+		<!--最后部分 foot-->
+		<div id="footer">
+			<div class="biaoyu">
+				<ul class="clearfix">
+		            <li class="fl">
+		                <img class="fl" src="images/1600019.png">
+		                <span class="fl">7X24小时营业<br>全年无休</span>
+		            </li>
+		            <li class="fl">
+		                <img class="fl" src="images/1600020.png">
+		                <span class="fl">全国服务热线<br>400-883-1984</span>
+		            </li>
+		            <li class="fl">
+		                <img class="fl" src="images/1600021.png">
+		                <span class="fl">新鲜直达<br>全程冷链</span>
+		            </li>
+		            <li class="fl">
+		                <img class="fl" src="images/1600022.png">
+		                <span class="fl">央企正品承诺<br>证照管控、每批检验</span>
+		            </li>
+		            <li class="fl last">
+		                <img class="fl" src="images/1600023.png">
+		                <span class="fl">满百免运费<br>今日下单次日送达</span>
+		            </li>
+        		</ul>
+			</div>
+			
+			<ul class="webmap">
+				<li>
+	            	<span class="title">购物指南</span>
+	            	<div>
+	                <a href="javascript:;">购物流程</a>
+	                <a href="javascript:;">验货签收</a>
+	                <a href="javascript:;">联系客服</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">配送信息</span>
+	            	<div>
+	                <a href="javascript:;">配送服务</a>
+	                <a href="javascript:;">物流查询</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">支付方式</span>
+	            	<div>
+	                <a href="javascript:;">在线支付</a>
+	                <a href="javascript:;">货到付款</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">售后服务</span>
+	            	<div>
+	                <a href="javascript:;">取消订单</a>
+	                <a href="javascript:;">售后政策</a>
+	                <a href="javascript:;">退换货政策</a>
+	                <a href="javascript:;">消费者告知书</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">优惠规则</span>
+	            	<div>
+	                <a href="javascript:;">积分规则</a>
+	                <a href="javascript:;">优惠券</a>
+	                <a href="javascript:;">华润预付卡</a>
+	            	</div>
+        		</li>
+        		<li class="last">
+	            	<span class="title">友情链接</span>
+	            	<div>
+	                <a href="javascript:;">华润万家官网</a>
+	                <a href="javascript:;">ole</a>
+	            	</div>
+        		</li>
+			</ul>
+			
+			<div class="saoma">
+				<dl>
+		            <dt>
+		            <img alt="" src="images/4060558.png">
+		            </dt>
+		            
+		            <dd>
+	                <span class="tit1">e万家客户端</span>
+	                <span class="tit2">扫描有惊喜</span>
+	                <span class="tit3">
+	                      <a class="iphone"><i></i>iPhone</a>
+	                      <a class="Android"><i></i>Android</a>
+	                </span>
+	            	</dd>
+	       		</dl>
+	       		
+	       		<dl>
+	            	<dt>
+	                <img alt="" src="images/3190047.png">
+	            	</dt>
+	            	
+	            	<dd>
+	                <span class="tit1">e万家官方微信</span>
+	                <span class="tit2">扫描有惊喜</span>
+	            	</dd>
+        		</dl>
+			</div>
+			<div class="webmy">
+				<div class="info" style="display: inline-block;">
+		        <a href="javascript:;">关于我们</a><span class="split">|</span>
+		        <a href="javascript:;">联系我们</a><span class="split">|</span>
+		        <a href="javascript:;">触屏版</a>
+		        </div>
+		        <span class="copyright">
+            	Copyright@华润万家有限公司&nbsp;&nbsp;粤ICP备05036369号-4&nbsp;&nbsp;&nbsp;ewj.com&nbsp;版权所有
+        		</span>
+			</div>
+		</div>
+		
+		<!--右边悬浮电梯-->
+		<ul id="dianti">
+        <li class="f1"><a href="shopingcar.html"></a></li>
+        <li class="f2"><a href="login.html"></a></li>
+        <li class="f3"><a href="#"></a></li>
+    	</ul>
+		
+	</body>
+</html>

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title><link rel="shortcut icon" href="images/ico.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xiangqing.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/xiangqing.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shopcar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--顶部通知图片-->
+		<div class="headerImg">
+    		<a href="javascript:;" target="_blank"><img src="images/14971408.jpg" style="width: 100%;" class="messageByimg"></a>
+		</div>
+		<!--logo 搜索框  nav-->
+		<div class="header">
+			<div class="center">
+				<div class="siteNav">
+					<div class="siteNavLogin">
+						<span >您好</span>,
+						<span >欢迎来<font class="colore14041">e万家</font>！</span>
+						<span id="loginLinkBlock"><a href="login.html">登录</a> <a href="zhuce.html">注册</a></span>
+					</div>						
+					<div class="siteNavRight">
+						<a href="javascript:;" class="right1">在线客服</a>
+						<a href="javascript:;" class="right2"><img src="images/3340014.png" />vip提货券</a>
+						<a href="javascript:;" class="right3">消费者告知书</a>
+						<a href="dingdan.html" class="right4">我的订单</a>
+					</div>	
+				</div>
+				
+				<div class="headerBody">
+					<a class="logo" href="index.html"><img src="images/4312385.png"/></a>
+					<div id="inputbox">
+						<input type="text"  id="txt" value="" />
+						<input type="button" id="btn" />
+					</div>
+					<div id="shopcar">
+						<img src="images/3020025.png"/>
+						<a href="shopingcar.html"><span>购物车&nbsp;<strong id="carNumber">0</strong>&nbsp;件商品</span></a>
+					</div>
+					<div id="hotkey">
+						<span id="">热门：</span>
+						<a href="javascript:;">跨境婴幼奶粉</a>
+						<a href="javascript:;">FANCL芳珂</a>
+						<a href="javascript:;">中秋月饼 </a>
+						<a href="javascript:;">大闸蟹</a>
+						<a href="javascript:;">餐饮生鲜 </a>
+						<a href="javascript:;">进口薯片</a>
+					</div>
+				</div>
+			</div>
+			<!--nav 导航条-->
+			<div class="headerNav">
+				<ul class="list">
+					<li id="li1" class="active"><a href="javascript:;">Enjoy City</a></li>
+					<li id="li2"><a href="javascript:;">跨境购</a><img src="images/3020009.png"/></li>
+					<li id="li3"><a href="zhuanti.html">产地直采</a><img src="images/3020009.png"/></li>
+					<li id="li4"><a href="javascript:;">政企阳光采购频道</a><img src="images/3020009.png"/></li>
+				</ul>
+				<div id="title">
+					<img src="images/3020023.png" />
+					商品分类
+				</div>
+				<!--商品分类ul-->
+				<ul class="goodslist" style="display: none;">
+					<li>
+						<img src="images/12410960_100X100.png"/>
+						<a href="javascript:;">产地直采</a>
+						<div></div>
+					</li>
+					<li>
+						<img src="images/12410969_100X100.png"/>
+						<a href="javascript:;">时令果蔬</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">新鲜水果</a>
+								<a href="javascript:;">应季畅销</a>
+								<a href="javascript:;">进口水果</a>
+								<a href="javascript:;">国产水果</a>
+								<a href="javascript:;">水果礼盒礼篮</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410967_100X100.png"/>
+						<a href="javascript:;">肉禽蛋品</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">肉类制品</a>
+								<a href="javascript:;">熟食肉禽</a>
+								<a href="javascript:;">腊肠/腊肉</a>
+								<a href="javascript:;">肉丸</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">猪牛羊肉</a>
+								<a href="javascript:;">鲜/冻牛羊肉</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">禽蛋类</a>
+								<a href="javascript:;"> 蛋品</a>
+								<a href="javascript:;">禽类</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410970_100X100.png"/>
+						<a href="javascript:;">水产海鲜</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">虾蟹类</a>
+								<a href="javascript:;">虾</a>
+								<a href="javascript:;">蟹</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">参贝类</a>
+								<a href="javascript:;">贝类</a>
+								<a href="javascript:;">海参</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">鱼类</a>
+								<a href="javascript:;"> 进口鱼类</a>
+								<a href="javascript:;">国产鱼类</a>
+								<a href="javascript:;">三文鱼</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">其他水产</a>
+								<a href="javascript:;">其他水产</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410968_100X100.png"/>
+						<a href="javascript:;">乳品面点</a>						  
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">面包糕点</a>
+								<a href="javascript:;">生日蛋糕</a>
+								<a href="javascript:;">烘焙点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">米面食品 </a>
+								<a href="javascript:;">小吃点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">甜品小菜</a>
+								<a href="javascript:;">风味小菜</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410964_100X100.png"/>
+						<a href="javascript:;">粮油干货</a>
+						<div>
+						<ul>
+							<li>
+								<a class="lei" href="javascript:;">粮油米面</a>
+								<a href="javascript:;">油</a>
+								<a href="javascript:;">米</a>
+								<a href="javascript:;">面条粉丝</a>
+								<a href="javascript:;">五谷杂粮</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">南北干货</a>
+								<a href="javascript:;">菌菇类</a>
+								<a href="javascript:;">干海产</a>
+								<a href="javascript:;">煲汤料</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">厨房调料</a>
+								<a href="javascript:;">酱油</a>
+								<a href="javascript:;">醋</a>
+								<a href="javascript:;">调味汁</a>
+								<a href="javascript:;">调味料</a>
+								<a href="javascript:;">调味酱</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">方便食品</a>
+								<a href="javascript:;">方便面/粉/粥</a>
+								<a href="javascript:;">火腿肠</a>
+								<a href="javascript:;">罐头食品</a>
+							</li>
+							</ul>	
+						</div>
+					</li>
+					<li>
+						<img src="images/12410965_100X100.png"/>
+						<a href="javascript:;">零食酒饮</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">新鲜水果</a>
+								<a href="javascript:;">应季畅销</a>
+								<a href="javascript:;">进口水果</a>
+								<a href="javascript:;">国产水果</a>
+								<a href="javascript:;">水果礼盒礼篮</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410966_100X100.png"/>
+						<a href="javascript:;">母婴呵护</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">肉类制品</a>
+								<a href="javascript:;">熟食肉禽</a>
+								<a href="javascript:;">腊肠/腊肉</a>
+								<a href="javascript:;">肉丸</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">猪牛羊肉</a>
+								<a href="javascript:;">鲜/冻牛羊肉</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">禽蛋类</a>
+								<a href="javascript:;"> 蛋品</a>
+								<a href="javascript:;">禽类</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410962_100X100.png"/>
+						<a href="javascript:;">个护美妆</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">虾蟹类</a>
+								<a href="javascript:;">虾</a>
+								<a href="javascript:;">蟹</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">参贝类</a>
+								<a href="javascript:;">贝类</a>
+								<a href="javascript:;">海参</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">鱼类</a>
+								<a href="javascript:;"> 进口鱼类</a>
+								<a href="javascript:;">国产鱼类</a>
+								<a href="javascript:;">三文鱼</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">其他水产</a>
+								<a href="javascript:;">其他水产</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410963_100X100.png"/>
+						<a href="javascript:;">家居日用</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">面包糕点</a>
+								<a href="javascript:;">生日蛋糕</a>
+								<a href="javascript:;">烘焙点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">米面食品 </a>
+								<a href="javascript:;">小吃点心</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">甜品小菜</a>
+								<a href="javascript:;">风味小菜</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<img src="images/12410961_100X100.png"/>
+						<a href="javascript:;">厨具电器</a>
+						<div>
+						<ul>
+							<li>
+								<a class="lei" href="javascript:;">粮油米面</a>
+								<a href="javascript:;">油</a>
+								<a href="javascript:;">米</a>
+								<a href="javascript:;">面条粉丝</a>
+								<a href="javascript:;">五谷杂粮</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">南北干货</a>
+								<a href="javascript:;">菌菇类</a>
+								<a href="javascript:;">干海产</a>
+								<a href="javascript:;">煲汤料</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">厨房调料</a>
+								<a href="javascript:;">酱油</a>
+								<a href="javascript:;">醋</a>
+								<a href="javascript:;">调味汁</a>
+								<a href="javascript:;">调味料</a>
+								<a href="javascript:;">调味酱</a>
+							</li>
+							<li>
+								<a class="lei" href="javascript:;">方便食品</a>
+								<a href="javascript:;">方便面/粉/粥</a>
+								<a href="javascript:;">火腿肠</a>
+								<a href="javascript:;">罐头食品</a>
+							</li>
+							</ul>	
+						</div>
+					</li>
+					<li>
+						<img src="images/12410959_100X100.png"/>
+						<a href="javascript:;">地方特产</a>
+						<div> 
+							<ul>
+							<li>
+								<a class="lei" href="javascript:;">新鲜水果</a>
+								<a href="javascript:;">应季畅销</a>
+								<a href="javascript:;">进口水果</a>
+								<a href="javascript:;">国产水果</a>
+								<a href="javascript:;">水果礼盒礼篮</a>
+							</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+<!--包住1190px在中间-->
+<div id="center">
+
+		<!--商品路径地址条div-->
+		<div class="crumb">
+		<a href="javascript:;" style="color: #e14041;">首页</a><span class="arrow"></span>
+		<a href="javascript:;">母婴呵护</a>
+		<span class="arrow"></span>
+		<a href="javascript:;">玩具</a>
+		<span class="arrow"></span>
+		<a href="javascript:;">毛绒布艺</a>
+		<span class="arrow"></span>
+		<span class="active">【全国配送】小猪佩奇粉红猪小妹佩佩猪毛绒娃娃公仔玩具30CM 乔治抱恐龙30cm</span>
+		</div>
+		
+		
+		<!--放大镜效果大的整个大div-->
+		<div class="detail_meta">
+			
+			<!--左边部分放大镜-->
+			<div class="preview gallery">
+				<!--中图片-->
+				<div id="midView" class="bigImg">
+					<img src="images/14580455_420X420.jpg" id="midimg">
+					<div style="left: 249px; top: 280px; z-index: 100; display: none;" id="winSelector"></div>
+				</div>
+				
+				<!--下面几张小图片-->
+				<div class="smallImg">
+					<div class="pre"> < </div>
+						<div class="ulview">
+						<ul class="huadong" style="margin-left: 0;">
+							<li class="small"><img src="images/14580454_85X85.jpg" alt=""></li>
+							<li class="small cur">	<img src="images/14580455_85X85.jpg" alt=""></li>
+							<li class="small">	<img src="images/14580458_85X85.jpg" alt=""></li>
+							<li class="small">	<img src="images/14580457_85X85.jpg" alt=""></li>
+							<li class="small">	<img src="images/14580456_85X85.jpg" alt=""></li>
+						</ul>
+						</div>
+					<div class="next"> > </div>
+				</div>
+				
+				<!--放大的大图片-->
+				<div id="bigView" style="display: none;">
+				<img style="position: absolute;" src="images/14580455_800X800.jpg">
+				</div>
+				
+				<!--分享商品到-->
+				<div id="share">
+					<span class="title">分享商品信息:</span>
+					<!-- JiaThis Button BEGIN -->
+					<div class="jiathis_style">
+						<a class="jiathis_button_qzone"></a>
+						<a class="jiathis_button_tsina"></a>
+						<a class="jiathis_button_tqq"></a>
+						<a class="jiathis_button_weixin"></a>
+						<a class="jiathis_button_renren"></a>
+						<a class="jiathis_button_xiaoyou"></a>
+						<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+						<a class="jiathis_counter_style"></a>
+					</div>
+					<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+				</div>
+				
+			</div>	
+			
+			
+			<!--右边-->
+			<div class="detail_right">
+				<span class="name" style="">【全国配送】小猪佩奇粉红猪小妹佩佩猪毛绒娃娃公仔玩具30CM 乔治抱恐龙30cm</span>
+				<span class="introduce">
+				<div style="margin-right: 12px; float: left"></div>
+				<div style="height: 20px; line-height: 20px;"></div>
+				<span class="introduce">【全国包邮】柔软舒适 安全无毒 正版</span>
+				</span>
+				<div class="money">价格
+				<p class="textPrimary">¥<strong>59</strong>.00</p>
+				</div>
+				
+				<!--分类选择-->
+				<div class="dt_lins norm">
+    			<span class="title">颜色</span>
+	    			<div class="norm_list">
+	        		<a href="javascript:;" class="active">乔治抱恐龙蓝色</a>
+	       			<a href="javascript:;" >佩佩奇抱熊红色</a>
+				    </div>
+				</div>
+				
+				<!--数量选择-->
+				<div class="dt_lins quantity">
+			    <span class="title">数量</span>
+			    <a class="less" data-bind="click:decrease"></a>
+			    <input class="quantity_txt" value="1" data-bind="value:buyAmount,event:{blur:changeNumber}">
+			    <a class="add" data-bind="click:add"></a>
+			    <span class="kucun">库存:38&nbsp;</span>
+			    <span class="tips" id="error_tips">
+			        <!--您所选的商品数量大于库存!-->
+    				</span>
+				</div>
+				
+				<!--地址选择-->
+				<div class="dt_lins region">
+			    <span class="title">送至</span>
+			    <div class="region_list">
+				<form>
+					<select class="sheng">
+						<option>请选择</option>
+					</select>
+					<select class="shi"></select>
+					<select class="xian"></select>
+				</form>
+			<script>	
+				$(function(){
+			$.get(
+				"address.json",
+				function(data){
+					var html="";
+					for (var i = 0; i < data.regions.length; i++) {
+					html += "<option class='shengname' value='"+i+"'>"+ data.regions[i].name+"</option>";
+					}
+					$(html).appendTo(".sheng");
+				}
+			)
+	
+		$(".sheng").on("change",function(){
+			   
+			var indexsheng= $(".sheng option:selected").index()-1;
+			$.get(
+					"address.json",
+					function(data){
+						//console.log(data.regions[indexsheng].regions.length);
+						var html="<option>--请选择</option>";
+						for (var i = 0; i < data.regions[indexsheng].regions.length; i++) {
+						html += "<option class='shiname' value='"+i+"'>"+ data.regions[indexsheng].regions[i].name+"</option>";
+						}
+						$(".shi").html(html);
+											
+					}
+			)
+			
+		})
+		$(".shi").on("change",function(){
+			var indexsheng= $(".sheng option:selected").index()-1,
+					indexshi=$(".shi option:selected").index()-1;
+				console.log(indexshi);
+			$.get(
+					"address.json",
+					function(data){
+						console.log('1')
+						var html="<option>--请选择--</option>";
+						for (var i = 0; i < data.regions[indexsheng].regions[indexshi].regions.length; i++) {
+						html += "<option class='xianname' value='"+i+"'>"+ data.regions[indexsheng].regions[indexshi].regions[i].name+"</option>";
+						}
+						$(".xian").html(html);
+					
+						
+					}
+				)
+			
+		})
+		
+	})	
+	</script>
+				</div>
+				<span style="display: inline;margin-left: 10px" class="hasProduct">有货</span>
+				</div>
+				
+				
+				<!--加入购物车-->
+				<div class="dt_lins buyOperate pr">
+			    <a class="btnAddToCart"><span>加入购物车</span></a>
+			    <a class="but25 btnAddFavorite" pid="p_4150044"><i></i><span>收藏</span></a>
+			    <div class="messagePanel successPanel recommend1 addToCart"></div>
+			    <div class="messagePanel successPanel recommend2 addToFavorite" style="width: 350px;"></div>
+				</div>
+				
+				<!--加入购物车弹出对话框-->
+				<div class="success">
+					<div class="messagePanelHd">提示 <i class="closeBtn"></i></div>
+					<div class="messagePanelBd">
+						<div class="clearfix mt5">
+						<img height="36" width="37" alt="" src="images/50402.png" class="fl mt10">
+							<div class="fl ml15">
+							<h2 class="title fn">已经成功加入购物车!</h2>
+							<p class="total">成功加入<span class="allgoods"></span>件商品，合计&nbsp;<span class="money">¥0.00</span>&nbsp;	</p>
+							</div>
+						</div>
+						
+						<div class="clearfix btnWrap">
+						<a class="btn default closeBtn" href="javascript:;">继续购物</a>
+						<a class="btn primary" href="shopingcar.html">去购物车结算&nbsp;&gt;</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>	
+			
+		</div>
+		
+		
+		<!--外面左面小部分	-->
+		<div class="left">
+		<div class="nav_list">
+		<span class="title2 active">相关分类</span>
+		<div class="list active">
+		<a href="javascript:;">遥控/电动</a>
+		<a href="javascript:;">毛绒布艺</a>
+		<a href="javascript:;">益智玩具</a>
+		<a href="javascript:;">积木拼插</a>
+		<a href="javascript:;">模型</a>
+		<a href="javascript:;">其他玩具</a>
+		</div>
+		</div>
+		<div class="best" id="buyAlsoBuyBlock"></div>
+		</div>
+		
+		<!--外面右面小部分	-->
+		<div class="right">
+			<div class="nav" id="detailTab">
+			<a class="active">商品介绍</a>
+			<a>规格及包装</a>
+			<a>售后服务</a>
+			<a>评价（0）</a>
+			<a>商品问答</a>
+			</div>
+			
+			
+			<ul class="center_html">
+				<li class="show">
+					<img src="images/14580447.jpg"><br>
+					<img src="images/14580451.jpg"><br>
+					<img src="images/14580453.jpg"><br>
+					<img src="images/14580452.jpg"><br>
+					<img src="images/14580446.jpg"><br>
+					<img src="images/14580445.jpg"><br>
+					<img src="images/14580448.jpg"><br>
+					<img src="images/14580449.jpg"><br>
+					<img src="images/14580450.jpg"><br>
+				</li>
+				
+				<li >
+					<table class="modelTable" width="870">
+					<tbody><tr>
+					<td class="title" width="130"><p>材质：</p></td>
+					<td class="desc">水晶柔软短绒</td>
+					</tr>
+					
+					<tr>
+					<td class="title" width="130"><p>颜色：</p></td>
+					<td class="desc">乔治抱恐龙蓝色</td>
+					</tr>
+					
+					<tr>
+					<td class="title" width="130"><p>适用年龄：</p></td>
+					<td class="desc">6-12岁</td>
+					</tr>
+					
+					<tr>
+					<td class="title" width="130"><p>包装：</p></td>
+					<td class="desc">盒</td>
+					</tr>
+					
+					<tr>
+					<td class="title" width="130"><p>类型：</p></td>
+					<td class="desc">毛绒布艺</td>
+					</tr>
+					
+					<tr>
+					<td class="title" width="130"><p>适用人群：</p></td>
+					<td class="desc">中性</td>
+					</tr>
+					</tbody></table>
+				</li>
+				<li>
+					<img src="images/14580449.jpg"><br>
+				</li>
+				<li>
+					<img src="images/14580445.jpg"><br>
+				</li>
+				<li>
+					<img src="images/14580447.jpg"><br>
+				</li>
+			</ul>
+			
+		</div>
+		
+</div>	
+
+
+
+		<!--最后部分 foot-->
+		<div id="footer">
+			<div class="biaoyu">
+				<ul class="clearfix">
+		            <li class="fl">
+		                <img class="fl" src="images/1600019.png">
+		                <span class="fl">7X24小时营业<br>全年无休</span>
+		            </li>
+		            <li class="fl">
+		                <img class="fl" src="images/1600020.png">
+		                <span class="fl">全国服务热线<br>400-883-1984</span>
+		            </li>
+		            <li class="fl">
+		                <img class="fl" src="images/1600021.png">
+		                <span class="fl">新鲜直达<br>全程冷链</span>
+		            </li>
+		            <li class="fl">
+		                <img class="fl" src="images/1600022.png">
+		                <span class="fl">央企正品承诺<br>证照管控、每批检验</span>
+		            </li>
+		            <li class="fl last">
+		                <img class="fl" src="images/1600023.png">
+		                <span class="fl">满百免运费<br>今日下单次日送达</span>
+		            </li>
+        		</ul>
+			</div>
+			
+			<ul class="webmap">
+				<li>
+	            	<span class="title">购物指南</span>
+	            	<div>
+	                <a href="javascript:;">购物流程</a>
+	                <a href="javascript:;">验货签收</a>
+	                <a href="javascript:;">联系客服</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">配送信息</span>
+	            	<div>
+	                <a href="javascript:;">配送服务</a>
+	                <a href="javascript:;">物流查询</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">支付方式</span>
+	            	<div>
+	                <a href="javascript:;">在线支付</a>
+	                <a href="javascript:;">货到付款</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">售后服务</span>
+	            	<div>
+	                <a href="javascript:;">取消订单</a>
+	                <a href="javascript:;">售后政策</a>
+	                <a href="javascript:;">退换货政策</a>
+	                <a href="javascript:;">消费者告知书</a>
+	            	</div>
+        		</li>
+        		<li>
+	            	<span class="title">优惠规则</span>
+	            	<div>
+	                <a href="javascript:;">积分规则</a>
+	                <a href="javascript:;">优惠券</a>
+	                <a href="javascript:;">华润预付卡</a>
+	            	</div>
+        		</li>
+        		<li class="last">
+	            	<span class="title">友情链接</span>
+	            	<div>
+	                <a href="javascript:;">华润万家官网</a>
+	                <a href="javascript:;">ole</a>
+	            	</div>
+        		</li>
+			</ul>
+			
+			<div class="saoma">
+				<dl>
+		            <dt>
+		            <img alt="" src="images/4060558.png">
+		            </dt>
+		            
+		            <dd>
+	                <span class="tit1">e万家客户端</span>
+	                <span class="tit2">扫描有惊喜</span>
+	                <span class="tit3">
+	                      <a class="iphone"><i></i>iPhone</a>
+	                      <a class="Android"><i></i>Android</a>
+	                </span>
+	            	</dd>
+	       		</dl>
+	       		
+	       		<dl>
+	            	<dt>
+	                <img alt="" src="images/3190047.png">
+	            	</dt>
+	            	
+	            	<dd>
+	                <span class="tit1">e万家官方微信</span>
+	                <span class="tit2">扫描有惊喜</span>
+	            	</dd>
+        		</dl>
+			</div>
+			<div class="webmy">
+				<div class="info" style="display: inline-block;">
+		        <a href="javascript:;">关于我们</a><span class="split">|</span>
+		        <a href="javascript:;">联系我们</a><span class="split">|</span>
+		        <a href="javascript:;">触屏版</a>
+		        </div>
+		        <span class="copyright">
+            	Copyright@华润万家有限公司&nbsp;&nbsp;粤ICP备05036369号-4&nbsp;&nbsp;&nbsp;ewj.com&nbsp;版权所有
+        		</span>
+			</div>
+		</div>
+		
+		<!--右边悬浮电梯-->
+		<ul id="dianti">
+        <li class="f1"><a href="shopingcar.html"></a></li>
+        <li class="f2"><a href="login.html"></a></li>
+        <li class="f3"><a href="#"></a></li>
+    	</ul>
+
+
+</body>
+</html>

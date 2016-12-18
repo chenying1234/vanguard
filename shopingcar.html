@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="shortcut icon" href="images/ico.ico">
+		<link rel="stylesheet" type="text/css" href="css/shopcar.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shopcar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+    	<div class="center">
+    		
+       		<div class="siteNav">
+	            <div class="siteNavCityChoose">
+	                <span class="title">我在深圳</span>
+	            </div>
+	            <div class="siteNavLogin">
+	                              您好，欢迎来<font class="colore14041">e万家</font>！
+	                <a href="login.html">登录</a><a href="zhuce.html">注册</a>
+	            </div>
+	            <div class="siteNavEntry">
+	                <a href="login.html">收藏夹</a>
+	                <a href="login.html" rel="nofollow">我的订单</a>
+	            </div>
+        	</div>
+        
+        	<div class="headerBody">
+	            <a href="index.html" class="headerLogo" style="background-image:url(images/4312385.png)"></a>
+	            <ul class="headerShoppingStep">
+	                <li class="active">
+	                    <div class="line"></div>
+	                    <div class="radius">1</div>
+	                    <span class="title">购物车</span>
+	                </li>
+	                <li>
+	                    <div class="line"></div>
+	                    <div class="radius">2</div>
+	                    <span class="title">确认订单信息</span>
+	                </li>
+	                <li>
+	                    <div class="line"></div>
+	                    <div class="radius">3</div>
+	                    <span class="title">提交订单</span>
+	                </li>
+	            </ul>
+       		</div>
+        
+	    </div>
+		</div>
+	
+		<!--购物车大的部分-->
+		<div class="center product">
+			<!--购物车-->
+			<div class="mani_cat_but">
+			<span class="title">购物车</span>
+			<a class="but" href="index.html">继续购物 &gt;</a>
+			</div>
+			<!--全部商品-->
+			<div class="datles_table">
+				<div class="delivery">
+				<span class="totalAmount">全部商品<span></span></span>
+				<div class="dt_lins region">
+				<span class="title">配送至</span>
+				<input style=" display: none" value="" class="lastID">
+				<span style="display: inline;margin-left: 10px" class="hasProduct"></span>
+				</div>
+				</div>
+			</div>
+			
+			<!--全选-->
+			<div class="th">
+				<div class="ld1">
+				<input type="checkbox" class="ck_all"/>全选&nbsp;
+				</div>
+				<div class="ld2">
+				商品
+				</div>
+				<div class="ld3">
+				规格属性
+				</div>
+				<div class="ld4">
+				单价(元)
+				</div>
+				<div class="ld6">
+				数量
+				</div>
+				<div class="ld7">
+				商品小计(元)
+				</div>
+				<div class="ld8">
+				操作
+				</div>
+			</div>
+			
+			<!--深圳市怡明科技有限公司-->
+			<div class="merchantHeader">
+			<span  class="merchantName">深圳市怡明科技有限公司</span>
+			</div>
+			
+			<!--买的东西-->
+			<div id="goods">
+				<ul>
+					
+					<li class="row">
+					<input type="checkbox" class="xuan" />
+					<div class="ld1">
+					<img src="images/14580455_90X90.jpg">
+					</div>
+					<div class="ld2">
+					<a class="ld2a">乔治抱恐龙蓝色</a>
+					</div>
+					<div class="ld3">
+					<span>规格属性</span>
+					</div>
+					<div class="ld4">¥59</div>
+					<div class="ld6">
+					<a href="javascript:;" class="minus">-</a>
+					<input type="text" id="shuliang" value="1" />
+					<a href="javascript:;" class="caradd">+</a>
+					</div>
+					<div class="ld7">
+					<span class="font18">¥59</span>
+					</div>
+					<div class="ld8">
+					<a href="javascript:;" class="btndel">删除</a>
+					</div>
+					</li>
+		
+				</ul>
+			</div>
+			
+			
+			<!--结算-->
+			<div class="jiesuan">
+				<div class="float_l">
+					<a href="javascript:;" class="del_check">删除已选商品</a>
+				</div>
+				
+				<div class="right">
+					<p>
+					<span>合计（不含运费）：</span>
+					<em class="price">0.00</em>
+					</p>
+					<a class="pay" href="dingdan.html">结算</a>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			<div class="web_map_My">
+	        <span class="copyright">
+	           Copyright@华润万家有限公司&nbsp;&nbsp;粤ICP备05036369号-4&nbsp;&nbsp;&nbsp;ewj.com&nbsp;版权所有
+	        </span>
+	    	</div>
+
+			
+		</div>
+
+	</body>
+</html>

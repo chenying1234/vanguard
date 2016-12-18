@@ -1,0 +1,39 @@
+#banner{height:440px; overflow: hidden;}
+#banner a{ display: inline-block; width: 100%; height: 100%; background:url(../images/15210006.jpg) no-repeat -300px 0;}
+#center{ width: 1190px;height: 5421px; margin: 0 auto;}
+.promotion-list{width: 1190px; height: 2110px; margin-top: 50px;}
+.promotion-list li{width: 1190px; height:320px; margin-bottom: 38px; background: #fff;position: relative; }
+.promotion-list li .flag {display: block; position: absolute; width: 69px; height: 88px; left: 12px; top: -8px; font-size: 22px; color: #fff; background:url(../images/50443.png) no-repeat; box-sizing: border-box; text-align: center; padding: 10px;}
+.promotion-list li .pic { float: left; width: 780px; background-position: center center; background-size: cover;  height: 320px;}
+.promotion-list li .picDiv {width: 100%; height: 100%;position: relative;}
+.promotion-list li .pic a { display: inline-block; height: 100%; width: 100%;}
+.promotion-list li .info { width: 345px; height: 320px; margin-left: 815px; margin-right: 30px;}
+.promotion-list li .info .info-row { border-bottom: 1px solid #dfdfdf; padding: 15px 10px; margin-left: -10px;  margin-right: -10px;  color: #666;}
+.promotion-list li .name h3 { font-size: 18px; font-weight: bold; margin-top: 28px; margin-bottom: 12px; height: 28px; overflow: hidden;}
+.promotion-list li .name p { line-height: 20px;font-size: 14px; color: #666; height: 63px; overflow: hidden;}
+.promotion-list li .info .price { height: 64px;  padding-top: 5px; padding-bottom: 10px; font-size: 18px;}
+.promotion-list li .price strong { color: #e14041; font-size: 32px; font-weight: normal; margin-right: 30px;}
+.promotion-list li .price strong b { font-size: 48px; font-weight: normal;}
+.promotion-list li .info .info-row:last-child { padding-top: 20px; padding-bottom: 20px; border-bottom: 0;}
+.promotion-list li .buy span { margin-right: 60px; display: inline-block; width: 120px;}
+.promotion-list li .buy .buy-button {display: inline-block;font-size: 20px; color: #fff;background: #e14041;text-align: center; width: 144px; height: 40px;  line-height: 40px; border-style: solid;  border-width: 1px; border-top: #f0a0a0;  border-left: #dd3c3d;  border-bottom: #c21f1f;  border-right: #dd3c3d;transition: all 0.5s ease;}
+
+/*下面一个ul，几十个小图片那个*/
+.goodsUl{ width: 1200px; height: 3311px; margin-top: 20px; margin-left: -10px;display: inline-block; float: left;}
+.goodsUl li {float: left;margin: 0 0 14px 6px;border: 2px solid #EDEDED;  background: #fff; width: 290px; height: 455px;position: relative;}
+.goodsUl li:hover{border-color:#f3484a;}
+.goodsUl li .img_view { width: 100%; height: 290px;  line-height: 290px; text-align: center; overflow: hidden;  float: left; border-bottom: 1px solid #ededed;  position: relative;}
+.goodsUl .picDiv {width: 100%; height: 100%; position: relative;    line-height: 290px;text-align: center;}
+.goodsUl li .bottom{ height: 133px;  float: left; padding: 12px 15px; width: 260px; position: relative;}
+.goodsUl li .bottom .name { color: #000; cursor: pointer; display: block; font-size: 16px; line-height: 20px;  height: 20px;  overflow: hidden;  text-overflow: ellipsis; white-space: nowrap; font-weight: bold;  margin: 3px 0 10px;}
+.goodsUl li .bottom .desc { font-size: 14px;  line-height: 20px;  height: 40px;   overflow: hidden;}
+.goodsUl li .bottom .price {  display: block;  margin: 20px 0 8px; color: #e14041; font-size: 22px;  position: relative;}
+.goodsUl li .bottom .price strong {font-size: 28px;}
+.goodsUl li .bottom .price .buy { display: block;  position: absolute;  right: 15px;  top: -12px;  width: 50px; height: 50px;  font: 16px/50px microsoft yahei;  color: #fff;  text-align: center;  background:url(../images/6960000.png) no-repeat 0 -100px;  visibility: visible;}
+.goodsUl .textPrimary strong {font-weight: normal;}
+
+
+
+
+
+
